@@ -1,5 +1,6 @@
 package com.guazi.dubbo.web;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.guazi.dubbo.model.User;
 import com.guazi.dubbo.service.SomeService;
 import com.sun.org.apache.xpath.internal.operations.Mod;
@@ -18,7 +19,7 @@ public class SomeController {
     @RequestMapping(value = "/hello")
     public String hello(Model model){
         String hello=someService.hello();
-        model.addAttribute("hello",hello);
+        model.addAttribute("hello", );
         return "hello";
     }
 
