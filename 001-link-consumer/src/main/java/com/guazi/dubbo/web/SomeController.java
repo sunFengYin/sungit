@@ -19,7 +19,7 @@ public class SomeController {
     @RequestMapping(value = "/hello")
     public String hello(Model model){
         String hello=someService.hello();
-        model.addAttribute("hello", );
+        model.addAttribute("hello");
         return "hello";
     }
 
