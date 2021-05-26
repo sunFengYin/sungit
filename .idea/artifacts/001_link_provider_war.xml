@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="001-link-provider.war">
+    <root id="archive" name="001-link-provider-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="001-link-provider:war exploded" />
     </root>
   </artifact>

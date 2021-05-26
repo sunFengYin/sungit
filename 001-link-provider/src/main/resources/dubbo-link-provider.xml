@@ -10,6 +10,7 @@
     <!--
         暴露服务，registry是注册中心地址
     -->
-    <dubbo:service interface="com.guazi.dubbo.service.SomeService" ref="" registry="N/A"/>
-    <bean id="SomeServiceImpl" class="com.guazi.dubbo.service.impl.SomeServiceImpl"/>
+    <bean class="com.guazi.dubbo.service.impl.SomeServiceImpl" id="someServiceImpl"/>
+    <dubbo:service interface="com.guazi.dubbo.service.SomeService" registry="N/A" ref="someServiceImpl"/>
+
 </beans>

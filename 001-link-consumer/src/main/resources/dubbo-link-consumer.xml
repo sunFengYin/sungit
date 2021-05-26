@@ -5,7 +5,9 @@
 
     <dubbo:application name="001-link-consumer"/>
 
-    <dubbo:reference interface="com.guazi.dubbo.service.SomeService" id="someService" url="dubbo://localhost:20880" registry="N/A"/>
+    <dubbo:reference interface="com.guazi.dubbo.service.SomeService" id="someService"
+                     url="dubbo://localhost:20880"
+                     registry="N/A"/>
 
 
 </beans>

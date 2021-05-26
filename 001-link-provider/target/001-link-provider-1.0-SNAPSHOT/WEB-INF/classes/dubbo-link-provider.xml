@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--声明服务的名称    -->
+    <dubbo:application name="001-link-consumer"/>
+    <!--指定dubbo的协议名称和端口号-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+    <!--
+        暴露服务，registry是注册中心地址
+    -->
+    <bean class="com.guazi.dubbo.service.impl.SomeServiceImpl" id="someServiceImpl"/>
+    <dubbo:service interface="com.guazi.dubbo.service.SomeService" registry="N/A" ref="someServiceImpl"/>
+
+</beans>
