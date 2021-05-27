@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/001-link-consumer/001-link-consumer.iml" filepath="$PROJECT_DIR$/001-link-consumer/001-link-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/001-link-provider/001-link-provider.iml" filepath="$PROJECT_DIR$/001-link-provider/001-link-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/003-interface/003-interface.iml" filepath="$PROJECT_DIR$/003-interface/003-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/005-zk-consumer/005-zk-consumer.iml" filepath="$PROJECT_DIR$/005-zk-consumer/005-zk-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/005-zk-provider/005-zk-provider.iml" filepath="$PROJECT_DIR$/005-zk-provider/005-zk-provider.iml" />
     </modules>
   </component>
 </project>

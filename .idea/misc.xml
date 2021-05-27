@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/001-link-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/001-link-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/005-zk-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/005-zk-provider" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -10,6 +12,8 @@
         <option value="$PROJECT_DIR$/001-link-provider/pom.xml" />
         <option value="$PROJECT_DIR$/001-link-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/003-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/005-zk-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/005-zk-consumer/pom.xml" />
       </list>
     </option>
   </component>

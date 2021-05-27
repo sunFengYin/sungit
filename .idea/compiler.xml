@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="003-interface" />
+        <module name="005-zk-consumer" />
+        <module name="005-zk-provider" />
         <module name="001-link-consumer" />
         <module name="001-link-provider" />
-        <module name="003-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="001-link-consumer" target="1.7" />
       <module name="001-link-provider" target="1.7" />
       <module name="003-interface" target="8" />
+      <module name="005-zk-consumer" target="1.7" />
+      <module name="005-zk-provider" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
